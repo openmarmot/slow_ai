@@ -1,3 +1,6 @@
+# run slow_ai
+cd code
+
 # make the downloads folder if it doesn't already exist
 mkdir -p downloads
 
@@ -5,11 +8,10 @@ mkdir -p downloads
 if [ ! -d "venv" ]; then
     # Start the venv only if it doesn't exist
     python -m venv venv
-    source venv/bin/activate
-else
-    # If venv already exists, just activate it
-    source venv/bin/activate
 fi
+
+# activate the virtual environment
+source venv/bin/activate
 
 # install / check requirements
 pip install -r requirements.txt
