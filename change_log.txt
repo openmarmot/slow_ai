@@ -1,0 +1,10 @@
+# slow_ai change log 
+
+----------------------------------
+March 12 2024 
+- initial project setup
+- working on abstracting a general llama_cpp object 
+
+funny thing about object inheritance here is that it doesn't really 
+matter with python if i'm overwriting everthing - but i think 
+its still nice to document the standard functions for the ai object 
